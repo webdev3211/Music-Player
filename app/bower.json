@@ -1,0 +1,26 @@
+{
+  "name": "app",
+  "authors": [
+    "Tushar <tushar.baheti28@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "1.5.5",
+    "bootstrap": "3.3.6",
+    "angular-route": "1.5.8",
+    "howler": "^2.0.1",
+    "angular-siri-wave": "*",
+    "howler.js": "howler#^2.0.10"
+  },
+  "resolutions": {
+    "angular": "1.5.8"
+  }
+}

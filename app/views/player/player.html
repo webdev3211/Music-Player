@@ -1,0 +1,39 @@
+
+<div id="title">
+    <span id="track" ng-show="!playListVisible">{{ trackName }}</span>
+    <div id="timer" ng-show="songPlaying">0.00</div>
+    <div id="duration" ng-show="songPlaying"> {{ timer }}</div>
+</div>
+
+<div id="showError" class="error" ng-show="!musicSelected">
+    <p>No Folder is selected</p>
+</div>
+
+<div class="controlsOuter">
+    <div class="controlsInner">
+        <div id="loading"></div>
+        <div ng-show="musicSelected">
+            <div class="btn" id="playBtn" ng-click="playMusic()" ng-show="!songPlaying"></div>
+            <div class="btn" id="pauseBtn" ng-click="playMusic()" ng-show="songPlaying"></div>
+            <div class="btn" id="prevBtn" ng-click="prevSong()" ng-show="songPlaying"></div>
+            <div class="btn" id="nextBtn" ng-click="nextSong()" ng-show="songPlaying"></div>    
+        </div>
+        
+    </div>
+    <div class="btn" id="playlistBtn" ng-click="showPlaylist()"> </div>
+    <div class="btn" id="volumeBtn" ng-show="songPlaying"> </div>
+    
+</div>
+ 
+  <!-- Progress -->
+  <div id="waveform" ng-show="songPlaying" ng-click="seekToTime($event)"></div>
+
+  <div id="bar" ng-hide="songPlaying"></div>
+  <div id="progress"></div>
+
+  <!-- Playlist -->
+  <div id="playlist" ng-show="playListVisible">
+    <div id="list">
+      <div class="list-song" ng-repeat="song in player.playlist" ng-click="playPlaylistSong($index)">{{song.name}}</div>
+    </div>
+  </div>

@@ -1,0 +1,22 @@
+{
+  "name": "music-player",
+  "version": "1.0.0",
+  "description": "desktop music player app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webdev3211/Music-Player.git"
+  },
+  "author": "Tushar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webdev3211/Music-Player/issues"
+  },
+  "homepage": "https://github.com/webdev3211/Music-Player#readme",
+  "devDependencies": {
+    "electron": "^2.0.0"
+  }
+}

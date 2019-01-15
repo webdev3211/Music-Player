@@ -1,0 +1,36 @@
+{
+  "name": "angular-siri-wave",
+  "authors": [
+    "Olivier Le Quellec <olivier.le-quellec@live.fr>"
+  ],
+  "description": "AngularJS directive for displaying siri-like wave",
+  "main": "angular-siri-wave.js",
+  "keywords": [
+    "angularjs",
+    "directive",
+    "wave"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/OreOreDa/angular-siri-wave",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "example",
+    "bower.json",
+    "package.json",
+    "Gruntfile.js"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.19"
+  },
+  "_release": "4621815a34",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "4621815a349ae9dbd402e77c2d042b1a1973435e"
+  },
+  "_source": "https://github.com/OreOreDa/angular-siri-wave.git",
+  "_target": "*",
+  "_originalSource": "angular-siri-wave"
+}
