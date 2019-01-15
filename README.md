@@ -1,5 +1,5 @@
 # Music-Player
-Desktop music player app made using ElectronJs
+Muusic player app made using ElectronJs
 
 * Desktop app to listen to your favorite music
 
